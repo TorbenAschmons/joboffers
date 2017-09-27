@@ -20,3 +20,4 @@
 2) Create a Sysfolder
 3) Create records for "Location", "Department" and "Joboffer"
 4) Create a plugin on a page and select the sysfolder as startingpoint
+
