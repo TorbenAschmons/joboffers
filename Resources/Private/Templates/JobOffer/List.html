@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	  xmlns:f="https://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="main">
+
+	<f:flashMessages />
+
+	<div class="container  	joboffers">
+		<div class="row  joboffers__intro">
+			<div class="col-sm-12">
+				<h2>{settings.title}</h2>
+				<p><f:format.nl2br>{settings.description}</f:format.nl2br></p>
+			</div>
+		</div>
+		<div class="row  joboffers__selection">
+			<form class="form-group" method="POST">
+				<div class="col-sm-4">
+					<label for="filter11"><f:translate key="tx_joboffers_domain_model_location" /></label>
+					<select id="filter11" class="form-control" name="filter11">
+						<option value=""><f:translate key="tx_joboffers_domain_model_joboffer.allLocations" /></option>
+
+						<f:for each="{jobLocations}" as="location">
+								<option value="{location.location.title}">{location.location.title}</option>
+						</f:for>
+
+
+					</select>
+					<i class="fa fa-caret-down" aria-hidden="true" style="font-size: 25px;"></i>
+				</div>
+				<div class="col-sm-4">
+					<label for="filter21"><f:translate key="tx_joboffers_domain_model_joboffer.tasks" /></label>
+					<select id="filter21" class="form-control" name="filter21">
+						<option value=""><f:translate key="tx_joboffers_domain_model_joboffer.allTasks" /></option>
+
+						<f:for each="{jobDepartments}" as="department">
+							<option value="{department.department.title}">{department.department.title}</option>
+						</f:for>
+
+					</select>
+					<i class="fa fa-caret-down" aria-hidden="true" style="font-size: 25px;"></i>
+				</div>
+				<div class="col-sm-4">
+					<br>
+					<a class="btn  joboffers__btn-all-offers" href="#bewerbungsformular"><f:translate key="tx_joboffers_domain_model_joboffer.allJoboffers" /></a>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="row  joboffers__joblist">
+			<div class="panel-group" id="accordion">
+
+				<f:for each="{jobOffers}" as="jobOffer" iteration="iterator">
+
+					<div class="panel  panel-default">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{iterator.cycle}" aria-expanded="false">
+							<i class="fa icon pull-right"></i>
+							<div class="panel-heading" data-filter11="{jobOffer.location.title}" data-filter21="{jobOffer.department.title}">
+								<h3 class="panel-title">
+
+										{jobOffer.title}
+										<span>| <f:translate key="tx_joboffers_domain_model_location" /> {jobOffer.location.title}</span>
+
+								</h3>
+							</div>
+						</a>
+						<div id="collapse{iterator.cycle}" class="panel-collapse collapse" aria-expanded="false">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-12">
+										<h4><f:translate key="tx_joboffers_domain_model_location" />: {jobOffer.location.title}</h4>
+										{jobOffer.location.description}
+										<h4><f:translate key="tx_joboffers_domain_model_joboffer.title" />:</h4>
+										<f:format.raw>{jobOffer.description}</f:format.raw>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<h4><f:translate key="tx_joboffers_domain_model_joboffer.tasksTitle" />:</h4>
+										<f:format.raw>{jobOffer.tasks}</f:format.raw>
+									</div>
+									<div class="col-md-6">
+										<h4><f:translate key="tx_joboffers_domain_model_joboffer.profile" />:</h4>
+										<f:format.raw>{jobOffer.profile}</f:format.raw>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<a class="btn btn-default pull-right  joboffers__btn  joboffers__btn-apply-now" href="#bewerbungsformular"><f:translate key="tx_joboffers_domain_model_joboffer.linkToForm.linkText" /></a>
+										<f:if condition="{jobOffer.downloads}">
+											<a href="fileadmin{jobOffer.downloads.originalResource.identifier}" target="_blank" class="btn btn-default pull-right  joboffers__btn  joboffers__btn-pdf-download"><f:translate key="tx_joboffers_domain_model_joboffer.downloads.linkText" /></a>
+										</f:if>
+
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</f:for>
+
+			</div>
+		</div>
+	</div>
+
+</f:section>

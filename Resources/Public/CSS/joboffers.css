@@ -1,0 +1,130 @@
+.joboffers a:link,
+.joboffers a:visited,
+.joboffers a:hover,
+.joboffers a:active{
+    text-decoration: none;
+}
+
+.joboffers h4{
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+.joboffers ul,
+.joboffers ul li{
+	list-style: disc;
+	margin: 0 0 0 0.5em;
+}
+
+.joboffers .panel a .icon{
+    font-size: 1.3em;
+    margin: 16px;
+	z-index: 1;
+}
+
+.joboffers .panel a .icon:before {
+    content: "\f056"; /* Minus */
+}
+.joboffers .panel a.collapsed .icon:before {
+    content: "\f055"; /* Plus */
+}
+
+.joboffers__selection{
+    margin-bottom: 2em;
+}
+
+.joboffers__joblist{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.joboffers form select{
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    height: 35px;
+    padding: 0 14px;
+    z-index: 5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.joboffers form select option{
+    padding: 4px 0 4px 15px;
+}
+
+.joboffers form .fa-caret-down{
+    bottom: 28px;
+    position: absolute;
+    right: 32px;
+}
+
+.joboffers__btn-all-offers{
+    height: 36px;
+    margin-top: 4px;
+    padding-top: 8px;
+    width: 100%;
+}
+
+.joboffers__btn-pdf-download{
+    margin-right: 1em;
+}
+
+
+
+.joboffers__selection,
+.joboffers__intro{
+	background-color: #eb5c24;
+	color: #fff;
+	padding-top: 1em;
+}
+
+.joboffers__intro h1,
+.joboffers__intro h2,
+.joboffers__intro h3,
+.joboffers__intro h4{
+	color: #fff;
+}
+
+.joboffers__selection label{
+	color: #fff;
+	font-weight: lighter;
+}
+
+
+.joboffers__btn-all-offers,
+.joboffers__btn-all-offers:hover,
+.joboffers__btn-all-offers:active,
+.joboffers__btn-all-offers:focus{
+	background-color: #000;
+	height: 40px;
+	margin-top: 5px !important;
+	border: none;
+	color: #fff !important;
+	border-radius: 0;
+	outline: none;
+}
+
+
+
+.joboffers__joblist .panel-group .panel .panel-heading {
+	background-color: black;
+	color: #eb5c24;
+	padding: 15px;
+}
+
+.joboffers__joblist .panel-group .panel-body{
+	background-color: #303030;
+	color: #fff;
+	padding: 0 30px 30px 30px;
+}
+
+.joboffers__joblist .panel-group .panel-title span{
+	color: #fff;
+}
+
+.joboffers__btn{
+	text-transform: uppercase;
+}

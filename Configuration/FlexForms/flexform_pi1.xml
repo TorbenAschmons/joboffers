@@ -1,0 +1,35 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Function</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.title>
+                        <TCEforms>
+                            <label>Title</label>
+                            <config>
+                                <type>input</type>
+                                <size>32</size>
+                                <max>64</max>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.title>
+                    <settings.description>
+                        <TCEforms>
+                            <label>Description</label>
+                            <config>
+                                <type>text</type>
+                                <cols>32</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.description>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

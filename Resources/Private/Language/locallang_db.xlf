@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-11T10:52:37Z" product-name="joboffers">
+		<header/>
+		<body>
+			<trans-unit id="tx_joboffers_domain_model_pi1">
+				<source>Job Offers</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_pi1.description">
+				<source>Organization of Job Offers.</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer">
+				<source>Job Offer</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.tasks">
+				<source>Tasks</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.profile">
+				<source>Profile</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.downloads">
+				<source>Downloads</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.department">
+				<source>Department</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,328 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    72,
+                    227
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Location",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "Location of Job Offer",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "626270033652"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "437915869899"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "Text",
+                            "uid": "1149224503006"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    72,
+                    454
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Department",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "Department or Job Task Area",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1137919185105"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "343289679843"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "Text",
+                            "uid": "471010594716"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    511,
+                    32
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "JobOffer",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Description of Job Offer",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "490032241319"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "1046361457442"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "deactivated",
+                            "propertyType": "Boolean",
+                            "uid": "276189491229"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "date",
+                            "propertyType": "NativeDate",
+                            "uid": "1484788902771"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "RichText",
+                            "uid": "1031537212583"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "tasks",
+                            "propertyType": "RichText",
+                            "uid": "723410676694"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "profile",
+                            "propertyType": "RichText",
+                            "uid": "1148414935099"
+                        },
+                        {
+                            "allowedFileTypes": "jpg,pdf",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "downloads",
+                            "propertyType": "File",
+                            "uid": "658502359024"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "location",
+                            "relationType": "zeroToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "1258145106685"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "department",
+                            "relationType": "zeroToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "1279481204581"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Organization of Job Offers.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 7.6.0-7.6.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "7.6.0-7.6.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "joboffers",
+        "name": "Job Offers",
+        "originalExtensionKey": "joboffers",
+        "originalVendorName": "TorbenAschmons",
+        "persons": [
+            {
+                "company": "www.aschmons.de",
+                "email": "t3dev-YYYY@aschmons.de",
+                "name": "Torben Aschmons",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "JobOffer => list,detail",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "Job Offers"
+            }
+        ],
+        "vendorName": "TorbenAschmons"
+    },
+    "wires": [
+        {
+            "src": {
+                "moduleId": 2,
+                "terminal": "relationWire_0",
+                "uid": "1258145106685"
+            },
+            "tgt": {
+                "moduleId": 0,
+                "terminal": "SOURCES",
+                "uid": "626270033652"
+            }
+        },
+        {
+            "src": {
+                "moduleId": 2,
+                "terminal": "relationWire_1",
+                "uid": "1279481204581"
+            },
+            "tgt": {
+                "moduleId": 1,
+                "terminal": "SOURCES",
+                "uid": "1137919185105"
+            }
+        }
+    ],
+    "log": {
+        "last_modified": "2017-07-10 11:25",
+        "extension_builder_version": "7.6.18",
+        "be_user": " (1)"
+    }
+}

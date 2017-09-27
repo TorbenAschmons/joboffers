@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-10T11:25:24Z" product-name="joboffers">
+		<header/>
+		<body>
+			<trans-unit id="tx_joboffers_domain_model_pi1">
+				<source>Job Offers</source>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_pi1.description">
+				<source>Organization of Job Offers.</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="deactivated.description">
+				<source>deactivated</source>
+			</trans-unit>
+			<trans-unit id="date.description">
+				<source>date</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="tasks.description">
+				<source>tasks</source>
+			</trans-unit>
+			<trans-unit id="profile.description">
+				<source>profile</source>
+			</trans-unit>
+			<trans-unit id="downloads.description">
+				<source>downloads</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>location</source>
+			</trans-unit>
+			<trans-unit id="department.description">
+				<source>department</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

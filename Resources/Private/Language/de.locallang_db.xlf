@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-07-11T10:52:37Z" product-name="joboffers">
+		<header/>
+		<body>
+			<trans-unit id="tx_joboffers_domain_model_pi1">
+				<source>Job Offers</source>
+				<target>Stellenangebote</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_pi1.description">
+				<source>Organization of Job Offers.</source>
+				<target>Organisation von Stellenangeboten</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location">
+				<source>Location</source>
+				<target>Standort</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_location.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department">
+				<source>Department</source>
+				<target>Abteilung</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_department.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer">
+				<source>Job Offer</source>
+				<target>Stellenangebot</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.date">
+				<source>Date</source>
+				<target>Datum</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.tasks">
+				<source>Tasks</source>
+				<target>Tätigkeiten</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.profile">
+				<source>Profile</source>
+				<target>Profil</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.downloads">
+				<source>Downloads</source>
+				<target>Downloads</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.location">
+				<source>Location</source>
+				<target>Standort</target>
+			</trans-unit>
+			<trans-unit id="tx_joboffers_domain_model_joboffer.department">
+				<source>Department</source>
+				<target>Abteilung</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
